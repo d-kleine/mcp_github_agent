@@ -75,13 +75,13 @@ To replicate this project and run the Haystack MCP Agent for GitHub Issue Automa
 
 **Never commit this file to GitHub** — add `.env` to your `.gitignore`.  
 
-#### 5. Modify the Python Script  
+### 5. Modify the Python Script  
 - Open `github-agent.py` in a code editor (e.g., VS Code).  
 - Locate the `owner` variable (e.g., `owner = "d-kleine"`).  
 - Replace `d-kleine` with **your GitHub username**.  
 - **Do not change** `repo` or `path` variables unless you’ve modified the repo/file name.  
 
-#### 6. Run the Typo Detection Agent  
+### 6. Run the Typo Detection Agent  
 - Ensure your virtual environment is active:
 
   ```bash
