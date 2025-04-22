@@ -93,9 +93,25 @@ To replicate this project and run the Haystack MCP Agent for GitHub Issue Automa
 - Open `github-agent.py` in a code editor (e.g., VS Code).  
 - Locate the `owner` variable (e.g., `owner = "d-kleine"`).  
 - Replace `d-kleine` with **your GitHub username**.  
-- **Do not change** `repo` or `path` variables unless you’ve modified the repo/file name.  
+- **Do not change** `repo` or `path` variables unless you’ve modified the repo/file name.
 
-### 6. Run the Typo Detection Agent  
+### 6. Install Docker
+The GitHub MCP Agent requires the GitHub MCP Server to be running as a Docker container.
+If you do not have Docker installed, install it. 
+
+- Verify your Docker installation:
+
+  ```bash
+  docker --version
+  ```
+
+- Pull and run the GitHub MCP Server Docker image:
+  
+  ```bash
+  docker pull ghcr.io/github/github-mcp-server
+  ```
+  
+### 7. Run the Typo Detection Agent  
 - Ensure your virtual environment is active:
 
   ```bash
