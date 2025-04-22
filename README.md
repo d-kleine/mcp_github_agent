@@ -22,6 +22,20 @@ This project serves as a showcase for leveraging MCP and intelligent NLP agents 
 - [Haystack MCP Integration](https://haystack.deepset.ai/integrations/mcp)
 - [OpenAI GPT-4o](https://openai.com/index/hello-gpt-4o/)
 
+## Expected Outcomes
+
+- The script uses the OpenAI API to scan the `README.md` file in the forked repo for common typos.
+- If typos are found, it automatically creates a GitHub issue in your fork with details about the errors and how to fix them.
+
+![Shell Script](./screenshots/shell_script.png)
+
+- The script will either:  
+  1. **Create an issue** in your repo if typos are detected.
+  2. **Do nothing** if no typos are found.  
+- Check the **Issues tab** of your forked repo to see results.
+
+![GH Issue](./screenshots/github_issue.png)
+
 ## Setup Instructions
 
 To replicate this project and run the Haystack MCP Agent for GitHub Issue Automation on your own fork of the "Spring into Haystack" project, follow these steps:
@@ -94,17 +108,3 @@ To replicate this project and run the Haystack MCP Agent for GitHub Issue Automa
   ```bash
   python github-agent.py
   ```
-
-**What Happens Next**  
-- The script uses the OpenAI API to scan `README.md` in the forked repo for common typos.
-- If typos are found, it automatically creates a GitHub issue in your fork with details about the error and how to fix it.
-
-![Shell Script](./screenshots/shell_script.png)
-
-**Expected Outcome** 
-- The script will either:  
-  1. **Create an issue** in your repo if typos are detected. It should check if a title
-  2. **Do nothing** if no typos are found.  
-- Check the **Issues tab** of your forked repo to see results.
-
-![GH Issue](./screenshots/github_issue.png)
