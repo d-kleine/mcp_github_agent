@@ -15,10 +15,8 @@ This project was initiated as part of the ["Spring into Haystack" coding challen
 This project serves as a showcase for leveraging MCP and intelligent NLP agents to automate repository maintenance workflows on GitHub. In practical terms, the approach demonstrated here could be expanded to automate a variety of other development tasks, such as code review, dependency monitoring, documentation generation, or integration testing. By connecting additional tools and services through MCP, teams can build more sophisticated agents that proactively manage project health, streamline collaboration, and reduce manual effort across the entire software development lifecycle.
 
 **Useful Links**
-- [Haystack Documentation](https://haystack.deepset.ai)
-- [Spring into Haystack Challenge](https://github.com/deepset-ai/spring-into-haystack)
-- [GitHub MCP Server](https://github.com/github/github-mcp-server)
 - [MCP Overview](https://www.anthropic.com/news/model-context-protocol)
+- [GitHub MCP Server](https://github.com/github/github-mcp-server)
 - [Haystack MCP Integration](https://haystack.deepset.ai/integrations/mcp)
 - [OpenAI GPT-4o](https://openai.com/index/hello-gpt-4o/)
 
